@@ -97,5 +97,12 @@
 
         @yield('contenido')
     </main>
+
+<footer style="background-color: #192754; color: white; text-align: center; padding: 20px; margin-top: 40px;">
+    <p>Biblioteca de Arley Patiño</p>
+    <p>Proyecto desarrollado con Laravel - SENA ADSO</p>
+    <p>&copy; {{ date('Y') }} Arley Patiño. Todos los derechos reservados.</p>
+</footer>
+
 </body>
 </html>
